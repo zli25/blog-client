@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<!-- don't forget the basics of angular here! -->
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <title>My Angular Build Tool</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <div ng-controller="TestController">
+    <h1 ng-bind='title'></h1>
+  </div>
+  <!-- don't you dare load up any other script tags here -->
+  <script src="bundle.js"></script>
+</body>
+</html>
