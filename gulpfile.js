@@ -65,8 +65,6 @@ gulp.task('copy', function() {
   //copy assets including images and fonts
   gulp.src(paths.assets, {base: './src/app'})
     .pipe(gulp.dest(paths.dest));
-
-
 });
 
 gulp.task('default', function(done) {

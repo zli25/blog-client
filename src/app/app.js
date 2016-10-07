@@ -28,8 +28,4 @@ angular.module('app', [
   // property who's value is the name you set the
   // module to be
   // home.name
-])
-.controller('TestController', function($scope) {
-  $scope.title = 'Welcome to the Angular Build Tool 2!'
-  console.log($scope.title);
-});
+]);
